@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad9ad9a4-dcdb-4890-9e93-ef200fcf7cec" name="Default" comment="" />
+    <ignored path="bfVerto.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="bfVerto" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="virtual-phone-body.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webApp/views/virtual-phone-body.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+              <folding>
+                <marker date="1493641054600" expanded="true" signature="603:795" ph="{&quot;vp-left-side-bar-collapsed&quot;: isSideBarToggle...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="virtualPhone.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webApp/virtualPhone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="529" column="32" selection-start-line="529" selection-start-column="32" selection-end-line="529" selection-end-column="32" />
+              <folding>
+                <element signature="e#75#157#0" expanded="false" />
+                <element signature="e#194#254#0" expanded="false" />
+                <element signature="e#365#646#0" expanded="false" />
+                <element signature="e#390#643#0" expanded="false" />
+                <element signature="e#538#595#0" expanded="false" />
+                <element signature="e#760#4873#0" expanded="false" />
+                <element signature="e#983#2599#0" expanded="false" />
+                <element signature="e#1009#2593#0" expanded="false" />
+                <element signature="e#1017#2587#0" expanded="false" />
+                <element signature="e#2664#2738#0" expanded="false" />
+                <element signature="e#2907#3390#0" expanded="false" />
+                <element signature="e#3034#3384#0" expanded="false" />
+                <element signature="e#3139#3211#0" expanded="false" />
+                <element signature="e#3494#3650#0" expanded="false" />
+                <element signature="e#3514#3577#0" expanded="false" />
+                <element signature="e#3583#3646#0" expanded="false" />
+                <element signature="e#3676#3956#0" expanded="false" />
+                <element signature="e#3982#4266#0" expanded="false" />
+                <element signature="e#4317#4363#0" expanded="false" />
+                <element signature="e#4371#4463#0" expanded="false" />
+                <element signature="e#4524#4586#0" expanded="false" />
+                <element signature="e#4648#4747#0" expanded="false" />
+                <element signature="e#4844#4866#0" expanded="false" />
+                <element signature="e#4879#5639#0" expanded="false" />
+                <element signature="e#5809#6323#0" expanded="false" />
+                <element signature="e#6367#6391#0" expanded="false" />
+                <element signature="e#6398#6413#0" expanded="false" />
+                <element signature="e#6868#6965#0" expanded="false" />
+                <element signature="e#7660#7793#0" expanded="false" />
+                <element signature="e#8052#8169#0" expanded="false" />
+                <element signature="e#8326#8982#0" expanded="false" />
+                <element signature="e#8415#8469#0" expanded="false" />
+                <element signature="e#8512#8972#0" expanded="false" />
+                <element signature="e#8670#8908#0" expanded="false" />
+                <element signature="e#8794#8896#0" expanded="false" />
+                <element signature="e#8988#9057#0" expanded="false" />
+                <element signature="e#9189#9336#0" expanded="false" />
+                <element signature="e#10782#12147#0" expanded="false" />
+                <element signature="e#12323#13704#0" expanded="false" />
+                <element signature="e#12363#12470#0" expanded="false" />
+                <element signature="e#12502#12578#0" expanded="false" />
+                <element signature="e#12600#13567#0" expanded="false" />
+                <element signature="e#12701#13559#0" expanded="false" />
+                <element signature="e#12761#13549#0" expanded="false" />
+                <element signature="e#13843#14065#0" expanded="false" />
+                <element signature="e#13962#14059#0" expanded="false" />
+                <element signature="e#14138#14146#0" expanded="false" />
+                <element signature="e#14249#15709#0" expanded="false" />
+                <element signature="e#15715#15810#0" expanded="false" />
+                <element signature="e#16217#16299#0" expanded="false" />
+                <element signature="e#16389#16545#0" expanded="false" />
+                <element signature="e#16668#16851#0" expanded="false" />
+                <element signature="e#16908#16975#0" expanded="false" />
+                <element signature="e#17030#17264#0" expanded="false" />
+                <element signature="e#18698#18730#0" expanded="false" />
+                <element signature="e#19342#19948#0" expanded="false" />
+                <element signature="e#19376#19941#0" expanded="false" />
+                <element signature="e#19641#19788#0" expanded="false" />
+                <element signature="e#19714#19756#0" expanded="false" />
+                <element signature="e#19954#20361#0" expanded="false" />
+                <element signature="e#19989#20354#0" expanded="false" />
+                <element signature="e#20210#20344#0" expanded="false" />
+                <element signature="e#20389#20896#0" expanded="false" />
+                <element signature="e#21606#21780#0" expanded="false" />
+                <element signature="e#21809#21860#0" expanded="false" />
+                <element signature="e#23299#23767#0" expanded="false" />
+                <element signature="e#24201#24294#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/webApp/core/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/webApp/core/src/index.html" />
+        <option value="$PROJECT_DIR$/webApp/views/virtual-phone-app-tpl.html" />
+        <option value="$PROJECT_DIR$/webApp/views/virtual-phone-app.html" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/webApp/virtualPhone.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/webApp/core/bower_components/bootstrap-sass/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webApp/core/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="28" />
+    <option name="width" value="1922" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jVerto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jVerto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jVerto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jVerto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jVerto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jVerto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jVerto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VPhone/FSVerto" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webApp/core/src/resources" />
+      <recent name="$PROJECT_DIR$/webApp/core/src/styles" />
+      <recent name="$PROJECT_DIR$/webApp/core/bower_components/bootstrap-sass" />
+    </key>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad9ad9a4-dcdb-4890-9e93-ef200fcf7cec" name="Default" comment="" />
+      <created>1495281839271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495281839271</updated>
+      <workItem from="1495281840834" duration="503000" />
+      <workItem from="1495282687849" duration="329000" />
+      <workItem from="1495283203175" duration="477000" />
+      <workItem from="1495283849304" duration="16282000" />
+      <workItem from="1495393076845" duration="298000" />
+      <workItem from="1497094499904" duration="1850000" />
+      <workItem from="1514377997036" duration="9973000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29712000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="28" width="1922" height="1028" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18871903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21942857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/views/virtual-phone-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="221" column="49" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="49" />
+          <folding>
+            <marker date="1493641054600" expanded="true" signature="603:795" ph="{&quot;vp-left-side-bar-collapsed&quot;: isSideBarToggle...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/virtualPhone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#75#157#0" expanded="false" />
+            <element signature="e#194#254#0" expanded="false" />
+            <element signature="e#365#646#0" expanded="false" />
+            <element signature="e#390#643#0" expanded="false" />
+            <element signature="e#538#595#0" expanded="false" />
+            <element signature="e#760#4873#0" expanded="false" />
+            <element signature="e#983#2599#0" expanded="false" />
+            <element signature="e#1009#2593#0" expanded="false" />
+            <element signature="e#1017#2587#0" expanded="false" />
+            <element signature="e#2664#2738#0" expanded="false" />
+            <element signature="e#2907#3390#0" expanded="false" />
+            <element signature="e#3034#3384#0" expanded="false" />
+            <element signature="e#3139#3211#0" expanded="false" />
+            <element signature="e#3494#3650#0" expanded="false" />
+            <element signature="e#3514#3577#0" expanded="false" />
+            <element signature="e#3583#3646#0" expanded="false" />
+            <element signature="e#3676#3956#0" expanded="false" />
+            <element signature="e#3982#4266#0" expanded="false" />
+            <element signature="e#4317#4363#0" expanded="false" />
+            <element signature="e#4371#4463#0" expanded="false" />
+            <element signature="e#4524#4586#0" expanded="false" />
+            <element signature="e#4648#4747#0" expanded="false" />
+            <element signature="e#4844#4866#0" expanded="false" />
+            <element signature="e#4879#5639#0" expanded="false" />
+            <element signature="e#5809#6323#0" expanded="false" />
+            <element signature="e#6367#6391#0" expanded="false" />
+            <element signature="e#6398#6413#0" expanded="false" />
+            <element signature="e#6868#6965#0" expanded="false" />
+            <element signature="e#7660#7793#0" expanded="false" />
+            <element signature="e#8052#8169#0" expanded="false" />
+            <element signature="e#8326#8982#0" expanded="false" />
+            <element signature="e#8415#8469#0" expanded="false" />
+            <element signature="e#8512#8972#0" expanded="false" />
+            <element signature="e#8670#8908#0" expanded="false" />
+            <element signature="e#8794#8896#0" expanded="false" />
+            <element signature="e#8988#9057#0" expanded="false" />
+            <element signature="e#9189#9336#0" expanded="false" />
+            <element signature="e#10782#12147#0" expanded="false" />
+            <element signature="e#12323#13704#0" expanded="false" />
+            <element signature="e#12363#12470#0" expanded="false" />
+            <element signature="e#12502#12578#0" expanded="false" />
+            <element signature="e#12600#13567#0" expanded="false" />
+            <element signature="e#12701#13559#0" expanded="false" />
+            <element signature="e#12761#13549#0" expanded="false" />
+            <element signature="e#13843#14065#0" expanded="false" />
+            <element signature="e#13962#14059#0" expanded="false" />
+            <element signature="e#14138#14146#0" expanded="false" />
+            <element signature="e#14249#15709#0" expanded="false" />
+            <element signature="e#15715#15810#0" expanded="false" />
+            <element signature="e#16217#16299#0" expanded="false" />
+            <element signature="e#16389#16545#0" expanded="false" />
+            <element signature="e#16668#16851#0" expanded="false" />
+            <element signature="e#16908#16975#0" expanded="false" />
+            <element signature="e#17030#17264#0" expanded="false" />
+            <element signature="e#18698#18730#0" expanded="false" />
+            <element signature="e#19342#19948#0" expanded="false" />
+            <element signature="e#19376#19941#0" expanded="false" />
+            <element signature="e#19641#19788#0" expanded="false" />
+            <element signature="e#19714#19756#0" expanded="false" />
+            <element signature="e#19954#20361#0" expanded="false" />
+            <element signature="e#19989#20354#0" expanded="false" />
+            <element signature="e#20210#20344#0" expanded="false" />
+            <element signature="e#20389#20896#0" expanded="false" />
+            <element signature="e#21606#21780#0" expanded="false" />
+            <element signature="e#21809#21860#0" expanded="false" />
+            <element signature="e#23299#23767#0" expanded="false" />
+            <element signature="e#24201#24294#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/views/virtual-phone-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="221" column="49" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="49" />
+          <folding>
+            <marker date="1493641054600" expanded="true" signature="603:795" ph="{&quot;vp-left-side-bar-collapsed&quot;: isSideBarToggle...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/virtualPhone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#75#157#0" expanded="false" />
+            <element signature="e#194#254#0" expanded="false" />
+            <element signature="e#365#646#0" expanded="false" />
+            <element signature="e#390#643#0" expanded="false" />
+            <element signature="e#538#595#0" expanded="false" />
+            <element signature="e#760#4873#0" expanded="false" />
+            <element signature="e#983#2599#0" expanded="false" />
+            <element signature="e#1009#2593#0" expanded="false" />
+            <element signature="e#1017#2587#0" expanded="false" />
+            <element signature="e#2664#2738#0" expanded="false" />
+            <element signature="e#2907#3390#0" expanded="false" />
+            <element signature="e#3034#3384#0" expanded="false" />
+            <element signature="e#3139#3211#0" expanded="false" />
+            <element signature="e#3494#3650#0" expanded="false" />
+            <element signature="e#3514#3577#0" expanded="false" />
+            <element signature="e#3583#3646#0" expanded="false" />
+            <element signature="e#3676#3956#0" expanded="false" />
+            <element signature="e#3982#4266#0" expanded="false" />
+            <element signature="e#4317#4363#0" expanded="false" />
+            <element signature="e#4371#4463#0" expanded="false" />
+            <element signature="e#4524#4586#0" expanded="false" />
+            <element signature="e#4648#4747#0" expanded="false" />
+            <element signature="e#4844#4866#0" expanded="false" />
+            <element signature="e#4879#5639#0" expanded="false" />
+            <element signature="e#5809#6323#0" expanded="false" />
+            <element signature="e#6367#6391#0" expanded="false" />
+            <element signature="e#6398#6413#0" expanded="false" />
+            <element signature="e#6868#6965#0" expanded="false" />
+            <element signature="e#7660#7793#0" expanded="false" />
+            <element signature="e#8052#8169#0" expanded="false" />
+            <element signature="e#8326#8982#0" expanded="false" />
+            <element signature="e#8415#8469#0" expanded="false" />
+            <element signature="e#8512#8972#0" expanded="false" />
+            <element signature="e#8670#8908#0" expanded="false" />
+            <element signature="e#8794#8896#0" expanded="false" />
+            <element signature="e#8988#9057#0" expanded="false" />
+            <element signature="e#9189#9336#0" expanded="false" />
+            <element signature="e#10782#12147#0" expanded="false" />
+            <element signature="e#12323#13704#0" expanded="false" />
+            <element signature="e#12363#12470#0" expanded="false" />
+            <element signature="e#12502#12578#0" expanded="false" />
+            <element signature="e#12600#13567#0" expanded="false" />
+            <element signature="e#12701#13559#0" expanded="false" />
+            <element signature="e#12761#13549#0" expanded="false" />
+            <element signature="e#13843#14065#0" expanded="false" />
+            <element signature="e#13962#14059#0" expanded="false" />
+            <element signature="e#14138#14146#0" expanded="false" />
+            <element signature="e#14249#15709#0" expanded="false" />
+            <element signature="e#15715#15810#0" expanded="false" />
+            <element signature="e#16217#16299#0" expanded="false" />
+            <element signature="e#16389#16545#0" expanded="false" />
+            <element signature="e#16668#16851#0" expanded="false" />
+            <element signature="e#16908#16975#0" expanded="false" />
+            <element signature="e#17030#17264#0" expanded="false" />
+            <element signature="e#18698#18730#0" expanded="false" />
+            <element signature="e#19342#19948#0" expanded="false" />
+            <element signature="e#19376#19941#0" expanded="false" />
+            <element signature="e#19641#19788#0" expanded="false" />
+            <element signature="e#19714#19756#0" expanded="false" />
+            <element signature="e#19954#20361#0" expanded="false" />
+            <element signature="e#19989#20354#0" expanded="false" />
+            <element signature="e#20210#20344#0" expanded="false" />
+            <element signature="e#20389#20896#0" expanded="false" />
+            <element signature="e#21606#21780#0" expanded="false" />
+            <element signature="e#21809#21860#0" expanded="false" />
+            <element signature="e#23299#23767#0" expanded="false" />
+            <element signature="e#24201#24294#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/views/virtual-phone-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="221" column="49" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="49" />
+          <folding>
+            <marker date="1493641054600" expanded="true" signature="603:795" ph="{&quot;vp-left-side-bar-collapsed&quot;: isSideBarToggle...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/views/virtual-phone-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="221" column="49" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="49" />
+          <folding>
+            <marker date="1493641054600" expanded="true" signature="603:795" ph="{&quot;vp-left-side-bar-collapsed&quot;: isSideBarToggle...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualPhone.js" />
+    <entry file="file://$PROJECT_DIR$/core/package.json" />
+    <entry file="file://$PROJECT_DIR$/core/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/views/virtual-phone-app.html" />
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualPhone.js" />
+    <entry file="file://$PROJECT_DIR$/core/package.json" />
+    <entry file="file://$PROJECT_DIR$/core/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/views/virtual-phone-app.html" />
+    <entry file="file://$PROJECT_DIR$/webApp/core/bower_components/bootstrap-sass/sache.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/core/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/core/bower_components/bootstrap-sass/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/core/dist/styles/vertoCore.d41d8cd9.css" />
+    <entry file="file://$PROJECT_DIR$/webApp/core/dist/styles/vertoCore.cd507f10.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/core/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/views/virtual-phone-app-tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/core/src/styles/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/core/src/styles/animations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/core/src/styles/select.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/core/src/styles/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/views/virtual-phone-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/views/virtual-phone-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding>
+            <marker date="1493641054600" expanded="true" signature="603:795" ph="{&quot;vp-left-side-bar-collapsed&quot;: isSideBarToggle...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/virtualPhone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="529" column="32" selection-start-line="529" selection-start-column="32" selection-end-line="529" selection-end-column="32" />
+          <folding>
+            <element signature="e#75#157#0" expanded="false" />
+            <element signature="e#194#254#0" expanded="false" />
+            <element signature="e#365#646#0" expanded="false" />
+            <element signature="e#390#643#0" expanded="false" />
+            <element signature="e#538#595#0" expanded="false" />
+            <element signature="e#760#4873#0" expanded="false" />
+            <element signature="e#983#2599#0" expanded="false" />
+            <element signature="e#1009#2593#0" expanded="false" />
+            <element signature="e#1017#2587#0" expanded="false" />
+            <element signature="e#2664#2738#0" expanded="false" />
+            <element signature="e#2907#3390#0" expanded="false" />
+            <element signature="e#3034#3384#0" expanded="false" />
+            <element signature="e#3139#3211#0" expanded="false" />
+            <element signature="e#3494#3650#0" expanded="false" />
+            <element signature="e#3514#3577#0" expanded="false" />
+            <element signature="e#3583#3646#0" expanded="false" />
+            <element signature="e#3676#3956#0" expanded="false" />
+            <element signature="e#3982#4266#0" expanded="false" />
+            <element signature="e#4317#4363#0" expanded="false" />
+            <element signature="e#4371#4463#0" expanded="false" />
+            <element signature="e#4524#4586#0" expanded="false" />
+            <element signature="e#4648#4747#0" expanded="false" />
+            <element signature="e#4844#4866#0" expanded="false" />
+            <element signature="e#4879#5639#0" expanded="false" />
+            <element signature="e#5809#6323#0" expanded="false" />
+            <element signature="e#6367#6391#0" expanded="false" />
+            <element signature="e#6398#6413#0" expanded="false" />
+            <element signature="e#6868#6965#0" expanded="false" />
+            <element signature="e#7660#7793#0" expanded="false" />
+            <element signature="e#8052#8169#0" expanded="false" />
+            <element signature="e#8326#8982#0" expanded="false" />
+            <element signature="e#8415#8469#0" expanded="false" />
+            <element signature="e#8512#8972#0" expanded="false" />
+            <element signature="e#8670#8908#0" expanded="false" />
+            <element signature="e#8794#8896#0" expanded="false" />
+            <element signature="e#8988#9057#0" expanded="false" />
+            <element signature="e#9189#9336#0" expanded="false" />
+            <element signature="e#10782#12147#0" expanded="false" />
+            <element signature="e#12323#13704#0" expanded="false" />
+            <element signature="e#12363#12470#0" expanded="false" />
+            <element signature="e#12502#12578#0" expanded="false" />
+            <element signature="e#12600#13567#0" expanded="false" />
+            <element signature="e#12701#13559#0" expanded="false" />
+            <element signature="e#12761#13549#0" expanded="false" />
+            <element signature="e#13843#14065#0" expanded="false" />
+            <element signature="e#13962#14059#0" expanded="false" />
+            <element signature="e#14138#14146#0" expanded="false" />
+            <element signature="e#14249#15709#0" expanded="false" />
+            <element signature="e#15715#15810#0" expanded="false" />
+            <element signature="e#16217#16299#0" expanded="false" />
+            <element signature="e#16389#16545#0" expanded="false" />
+            <element signature="e#16668#16851#0" expanded="false" />
+            <element signature="e#16908#16975#0" expanded="false" />
+            <element signature="e#17030#17264#0" expanded="false" />
+            <element signature="e#18698#18730#0" expanded="false" />
+            <element signature="e#19342#19948#0" expanded="false" />
+            <element signature="e#19376#19941#0" expanded="false" />
+            <element signature="e#19641#19788#0" expanded="false" />
+            <element signature="e#19714#19756#0" expanded="false" />
+            <element signature="e#19954#20361#0" expanded="false" />
+            <element signature="e#19989#20354#0" expanded="false" />
+            <element signature="e#20210#20344#0" expanded="false" />
+            <element signature="e#20389#20896#0" expanded="false" />
+            <element signature="e#21606#21780#0" expanded="false" />
+            <element signature="e#21809#21860#0" expanded="false" />
+            <element signature="e#23299#23767#0" expanded="false" />
+            <element signature="e#24201#24294#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

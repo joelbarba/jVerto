@@ -1,0 +1,353 @@
+/*
+ * animations css stylesheet
+ */
+
+/* animate ngRepeat in product listing */
+
+/*.product-listing.ng-enter,
+.product-listing.ng-leave,
+.product-listing.ng-move {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+}
+
+.product-listing.ng-enter,
+.product-listing.ng-move {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}*/
+
+/*.product-listing.ng-move.ng-move-active,
+.product-listing.ng-enter.ng-enter-active {
+  opacity: 1;
+  height: 32px;
+}*/
+
+.product-listing.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+}
+
+.product-listing.ng-leave.ng-leave-active {
+  opacity: 0;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* cross fading between routes with ngView */
+
+.view-container {
+  position: relative;
+}
+
+/*
+.view-frame.ng-enter,
+.view-frame.ng-leave {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+*/
+
+.view-frame.ng-enter {
+  z-index: 99;
+}
+
+.view-frame.ng-leave {
+  z-index: 100;
+}
+
+/*.product-list.ng-enter {
+    -webkit-animation:slideInLeft 1.0s both ease-in;
+	-moz-animation:slideInLeft 1.0s both ease-in;
+	animation:slideInLeft 1.0s both ease-in;
+}
+
+.product-list.ng-leave {
+  -webkit-animation:slideOutLeft 1.0s both ease-in;
+	-moz-animation:slideOutLeft 1.0s both ease-in;
+  animation:slideOutLeft 1.0s both ease-in;
+}
+
+.product-details.ng-enter {
+    -webkit-animation:slideInRight 1.0s both ease-in;
+	-moz-animation:slideInRight 1.0s both ease-in;
+	animation:slideInRight 1.0s both ease-in;
+}
+
+.product-details.ng-leave {
+  -webkit-animation:slideOutRight 1.0s both ease-in;
+	-moz-animation:slideOutRight 1.0s both ease-in;
+  animation:slideOutRight 1.0s both ease-in;
+}
+
+.socket.ng-enter {
+    -webkit-animation:slideInRight 1.0s both ease-in;
+	-moz-animation:slideInRight 1.0s both ease-in;
+	animation:slideInRight 1.0s both ease-in;
+}
+
+.socket.ng-leave {
+  -webkit-animation:slideOutRight 1.0s both ease-in;
+	-moz-animation:slideOutRight 1.0s both ease-in;
+  animation:slideOutRight 1.0s both ease-in;
+}
+
+.conferencing.ng-enter {
+    -webkit-animation:slideInLeft 1.0s both ease-in;
+	-moz-animation:slideInLeft 1.0s both ease-in;
+	animation:slideInLeft 1.0s both ease-in;
+}
+
+.conferencing.ng-leave {
+  -webkit-animation:slideOutLeft 1.0s both ease-in;
+	-moz-animation:slideOutLeft 1.0s both ease-in;
+  animation:slideOutLeft 1.0s both ease-in;
+}
+
+.conferencing-commander.ng-enter {
+    -webkit-animation:slideInRight 1.0s both ease-in;
+	-moz-animation:slideInRight 1.0s both ease-in;
+	animation:slideInRight 1.0s both ease-in;
+}
+
+.conferencing-commander.ng-leave {
+  -webkit-animation:slideOutRight 1.0s both ease-in;
+	-moz-animation:slideOutRight 1.0s both ease-in;
+  animation:slideOutRight 1.0s both ease-in;
+}*/
+
+.view-frame.ng-enter {
+    -webkit-animation:slideInTop 0.6s both ease-in;
+	-moz-animation:slideInTop 0.6s both ease-in;
+	animation:slideInTop 0.6s both ease-in;
+}
+
+.product-listing {
+    -webkit-animation:slideInTop 0.6s both ease-in;
+	-moz-animation:slideInTop 0.6s both ease-in;
+	animation:slideInTop 0.6s both ease-in;
+}
+
+.product-listing.ng-leave-active {
+    -webkit-animation:slideOutBottom 0.6s both ease-in;
+	-moz-animation:slideOutBottom 0.6s both ease-in;
+	animation:slideOutBottom 0.6s both ease-in;
+}
+
+.bf-slide-in-top{
+    -webkit-animation:slideInTop2 0.6s both ease-in;
+	-moz-animation:slideInTop2 0.6s both ease-in;
+	animation:slideInTop2 0.6s both ease-in;
+}
+
+.bf-slide-in-bottom {
+    -webkit-animation:slideInBottom 0.6s both ease-in;
+	-moz-animation:slideInBottom 0.6s both ease-in;
+	animation:slideInBottom 0.6s both ease-in;
+}
+
+.ng-hide.bf-slide-out-bottom {
+    -webkit-animation:slideOutBottom 0.6s both ease-in;
+	-moz-animation:slideOutBottom 0.6s both ease-in;
+	animation:slideOutBottom 0.6s both ease-in;
+}
+
+.ng-hide.bf-slide-out-top,
+.ng-hide.bf-slide-out-top .product-listing{
+    -webkit-animation:slideOutTop 0.6s both ease-in;
+	-moz-animation:slideOutTop 0.6s both ease-in;
+	animation:slideOutTop 0.6s both ease-in;
+}
+
+.bf-animate-table-top{}
+
+.bf-animate-table-top.ng-hide-remove{
+    -webkit-animation:slideInTop2 0.6s both ease-in;
+	-moz-animation:slideInTop2 0.6s both ease-in;
+	animation:slideInTop2 0.6s both ease-in;
+}
+
+.bf-animate-table-top.ng-hide-add{
+    -webkit-animation:slideOutTop 0.6s both ease-in;
+	-moz-animation:slideOutTop 0.6s both ease-in;
+	animation:slideOutTop 0.6s both ease-in;
+}
+
+
+.bf-animate-table-bottom.ng-hide-remove {
+    -webkit-animation:slideInBottom 0.6s both ease-in;
+	-moz-animation:slideInBottom 0.6s both ease-in;
+	animation:slideInBottom 0.6s both ease-in;
+}
+
+.bf-animate-table-bottom.ng-hide-add {
+    -webkit-animation:slideOutBottom 0.6s both ease-in;
+	-moz-animation:slideOutBottom 0.6s both ease-in;
+	animation:slideOutBottom 0.6s both ease-in;
+}
+
+
+@keyframes slideInRight {
+	from 	{ transform:translateX(100%); }
+	to 		{ transform: translateX(0); }
+}
+@-moz-keyframes slideInRight {
+	from 	{ -moz-transform:translateX(100%); }
+	to 		{ -moz-transform: translateX(0); }
+}
+@-webkit-keyframes slideInRight {
+	from 	{ -webkit-transform:translateX(100%); }
+	to 		{ -webkit-transform: translateX(0); }
+}
+
+
+
+@keyframes slideInLeft {
+	from 	{ transform:translateX(-100%); }
+	to 		{ transform: translateX(0); }
+}
+@-moz-keyframes slideInLeft {
+	from 	{ -moz-transform:translateX(-100%); }
+	to 		{ -moz-transform: translateX(0); }
+}
+@-webkit-keyframes slideInLeft {
+	from 	{ -webkit-transform:translateX(-100%); }
+	to 		{ -webkit-transform: translateX(0); }
+}
+
+
+
+@keyframes slideOutLeft {
+    0%   {left:0px;}
+    25%  {transform: translateX(100px);}
+    100% {transform: translateX(-100%);}
+}
+
+@-moz-keyframes slideOutLeft {
+    0%   {left:0px;}
+    25%  {-moz-transform: translateX(100px);}
+    100% {-moz-transform: translateX(-100%);}
+}
+@-webkit-keyframes slideOutLeft {
+    0%   {left:0px;}
+    25%  {-webkit-transform: translateX(100px);}
+    100% {-webkit-transform: translateX(-100%);}
+}
+
+
+
+
+
+
+@keyframes slideOutRight {
+  0%   {left:0px;}
+  25%  {transform: translateX(-100px);}
+  100% {transform: translateX(100%);}
+}
+@-moz-keyframes slideOutRight {
+  0%   {left:0px;}
+  25%  {-moz-transform: translateX(-100px);}
+  100% {-moz-transform: translateX(100%);}
+}
+@-webkit-keyframes slideOutRight {
+  0%   {left:0px;}
+  25%  {-webkit-transform: translateX(-100px);}
+  100% {-webkit-transform: translateX(100%);}
+}
+
+
+
+
+
+
+
+
+@keyframes slideInTop {
+	from 	{ transform:translateY(-20px); opacity: 0;}
+	to 		{ transform: translateY(0); opacity: 1;}
+}
+
+@keyframes slideInTop2 {
+	from 	{ transform:translateY(-60px); opacity: 0;}
+	to 		{ transform: none; opacity: 1;}
+}
+
+@keyframes slideInBottom {
+	from 	{ transform:translateY(60px); opacity: 0;}
+	to 		{ transform: translateY(0); opacity: 1;}
+}
+
+@keyframes slideOutBottom {
+	from 	{ transform:translateY(0px); opacity: 1;}
+	to 		{ transform: translateY(60px); opacity: 0;}
+}
+
+@keyframes slideOutTop {
+	from 	{ transform:translateY(0px); opacity: 1;}
+	to 		{ transform: translateY(-60px); opacity: 0;}
+}
+
+
+@keyframes switchInRight {
+	from 	{ transform:translateX(100%); }
+	to 		{ transform: translateX(0); }
+}
+@-moz-keyframes switchInRight {
+	from 	{ -moz-transform:translateX(100%); }
+	to 		{ -moz-transform: translateX(0); }
+}
+@-webkit-keyframes switchInRight {
+	from 	{ -webkit-transform:translateX(100%); }
+	to 		{ -webkit-transform: translateX(0); }
+}
+
+@keyframes switchOutRight {
+	from 	{ transform: translateX(0); }
+	to 		{ transform: translateX(161px); }
+}
+@-moz-keyframes switchOutRight {
+	from 	{ -moz-transform:translateX(0); }
+	to 		{ -moz-transform: translateX(161px); }
+}
+@-webkit-keyframes switchOutRight {
+	from 	{ -webkit-transform:translateX(0); }
+	to 		{ -webkit-transform: translateX(161px); }
+}
+
+
+
+@keyframes switchInLeft {
+	from 	{ transform:translateX(-100%); }
+	to 		{ transform: translateX(0); }
+}
+@-moz-keyframes switchInLeft {
+	from 	{ -moz-transform:translateX(-100%); }
+	to 		{ -moz-transform: translateX(0); }
+}
+@-webkit-keyframes switchInLeft {
+	from 	{ -webkit-transform:translateX(-100%); }
+	to 		{ -webkit-transform: translateX(0); }
+}
+
+@keyframes switchOutLeft {
+	from 	{ transform: translateX(0); }
+	to 		{ transform: translateX(-100%); }
+}
+@-moz-keyframes switchOutLeft {
+	from 	{ -moz-transform:translateX(0); }
+	to 		{ -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes switchOutLeft {
+	from 	{ -webkit-transform:translateX(0); }
+	to 		{ -webkit-transform: translateX(-100%); }
+}
+
+
+

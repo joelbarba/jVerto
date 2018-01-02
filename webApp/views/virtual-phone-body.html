@@ -1,0 +1,228 @@
+<div class="container-fluid">
+
+  <div class="virtual-phone-status-bar">
+    <div class="col-xs-9 vp-text-status-bar">
+      <h4>Status: {{currentStatus}} <span style="float: right">@{{callerId}}</span></h4>
+    </div>
+    <div class="col-xs-3 text-right" ng-show="internalStatus === 6 || internalStatus === 7 || internalStatus === 8">
+      <button class="btn-hang-up vp-big-call-btn" ng-click="endCall()" uib-tooltip="Hang up the current call">
+        <span class="icon icon-phone2"></span>
+      </button>
+    </div>
+  </div>
+
+
+  <!--Left side bar-->
+  <div class="vp-left-side-bar"
+       ng-class="{
+        'vp-left-side-bar-collapsed': isSideBarToggle,
+        'vp-left-side-bar-expanded': !isSideBarToggle,
+        'vp-left-side-bar-transparent': (internalStatus === 'talking')
+        }">
+
+
+    <!--Toggler to expand/collapse the sidebar-->
+    <div id="vp-toggler-sidebar" ng-click="toggleVPSidebar()">
+      <span class="icon icon-previous2" ng-show="!isSideBarToggle" aria-hidden="true"></span>
+      <span class="icon icon-next2 ng-hide" ng-show="isSideBarToggle" aria-hidden="true"></span>
+    </div>
+
+    <div class="row">
+
+      <!--Dialer-->
+      <div class="col-xs-6">
+        <div class="row vp-dial-wrapper">
+          <div class="col-xs-4 vp-dial-button text-center" ng-repeat="dialButton in dialButtons">
+            <div class="row">
+              <div class="col-xs-12" ng-click="dialButtonClick(dialButton)">{{dialButton.text}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-6">
+        <span class="spacer25"></span>
+
+        <!--Voice call-->
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="vp-small-call-btn btn-voice-call" ng-click="makeVoiceCall()">
+              <span class="icon icon-phone2"></span>
+            </button>
+            Voice Call
+          </div>
+        </div>
+        <span class="spacer15"></span>
+
+        <!--Video call-->
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="vp-small-call-btn btn-video-call" ng-click="makeVideoCall()">
+              <span class="icon icon-video-camera"></span>
+            </button>
+            Video Call
+          </div>
+        </div>
+        <span class="spacer15"></span>
+
+        <!--Screen share-->
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="vp-small-call-btn btn-screen-call" ng-click="makeScreenCall()">
+              <span class="icon icon-display"></span>
+            </button>
+            Screen Sharing
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Dial Num and Alias-->
+    <div class="row">
+      <div class="col-xs-12">
+        <span class="spacer5"></span>
+        <div class="form-group">
+          <label for="numToDial">Dial To:</label>
+          <input ng-model="numToDial" id="numToDial" ng-pattern="/^[0-9*#]{4,16}$/" style="width: 75px; margin-left: 8px;" class="text-center"/>
+
+          <label style="margin-left: 15px;" for="userAlias">Alias:</label>
+          <input ng-model="userAlias" id="userAlias" style="width: 160px; margin-left: 8px;"/>
+        </div>
+      </div>
+    </div>
+
+    <!--Tabs-->
+    <div class="row">
+
+      <uib-tabset active="activeTab">
+
+        <!--Call History Tab-->
+        <uib-tab class="call-history-tab" >
+          <uib-tab-heading><span>Call History</span></uib-tab-heading>
+          <div class="call-history-body">
+
+            <section-heading title="Call Historyyyy"></section-heading>
+
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="row" style="padding-left: 10px; padding-right: 10px;">
+                  <ul class="list-unstyled table-list bf-slide-in-top bf-slide-out-top">
+                    <li class="darkBg">
+                      <div class="row">
+                        <div class="col-xs-4"><h4>Number</h4></div>
+                        <div class="col-xs-5"><h4>Date</h4></div>
+                        <div class="col-xs-3"><h4>Chat</h4></div>
+                      </div>
+                    </li>
+                    <li dir-paginate="call in callHistory | itemsPerPage: 10">
+                      <div class="row">
+                        <div class="col-xs-4"><h5>{{call.num}}</h5></div>
+                        <div class="col-xs-5"><h5>{{call.date}}</h5></div>
+                        <div class="col-xs-3"><h5>{{call.chat}}</h5></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </uib-tab>
+
+        <!--Contacts Tab-->
+        <uib-tab class="contacts-tab" >
+          <uib-tab-heading><span>Contacts</span></uib-tab-heading>
+          <div class="contacts-body">
+
+            <section-heading title="Contacts"></section-heading>
+
+            <!-- User Details Form -->
+            <div class="row">
+
+              <div class="col-xs-12">
+                <div class="row" style="padding-left: 10px; padding-right: 10px;">
+                  <ul class="list-unstyled table-list bf-slide-in-top bf-slide-out-top">
+                    <li class="darkBg">
+                      <div class="row">
+                        <div class="col-xs-4"><h4>Name</h4></div>
+                        <div class="col-xs-5"><h4>Status</h4></div>
+                      </div>
+                    </li>
+                    <li dir-paginate="call in callHistory | itemsPerPage: 10">
+                      <div class="row">
+                        <div class="col-xs-4"><h5>{{call.num}}</h5></div>
+                        <div class="col-xs-5"><h5>{{call.date}}</h5></div>
+                        <div class="col-xs-3"><h5>Free</h5></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </uib-tab>
+
+        <!--Chat Tab-->
+        <uib-tab class="contacts-tab" >
+          <uib-tab-heading><span>Chat</span></uib-tab-heading>
+          <div class="contacts-body">
+
+            <section-heading title="Chat"></section-heading>
+
+            <div class="row">
+              This will be the chat
+            </div>
+          </div>
+        </uib-tab>
+
+        <!--Settings Tab-->
+        <uib-tab class="contacts-tab" >
+          <uib-tab-heading><span>Settings</span></uib-tab-heading>
+          <div class="contacts-body">
+
+            <section-heading title="Settings"></section-heading>
+
+            <div class="row">
+              This will be the settings
+            </div>
+          </div>
+        </uib-tab>
+
+
+      </uib-tabset>
+
+    </div>
+  </div>
+
+
+
+  <!--Video window-->
+  <div class="vp-video-wrapper">
+    <!--<video id="video-container" autoplay="autoplay" class="video-style"></video>-->
+    <video id="input-video-container" autoplay="autoplay" class="video-style"></video>
+
+    <!--<div class="video-container video-container-in">-->
+      <!--<video id="input-video-container" autoplay controls></video>-->
+      <!--<h2>He</h2>-->
+    <!--</div>-->
+
+    <!--<div class="video-container video-container-out">-->
+      <!--<video id="peer2-to-peer1" autoplay controls></video>-->
+      <!--<h2>You</h2>-->
+    <!--</div>-->
+
+    <!--<div class="col-xs-12" ng-click="iniVerto()">-->
+      <!--<textarea ng-model="rcpTestInput" style="margin-left: 400px; margin-top: 50px; width: 800px; height: 300px;"></textarea>-->
+      <!--<button class="btn" ng-click="rcpTestSend()">-->
+        <!--<span class="icon icon-save"></span>SeEEEND!-->
+      <!--</button>-->
+    <!--</div>-->
+    <!--<div class="col-xs-12" ng-click="iniVerto()">-->
+      <!--<textarea ng-model="rcpTestOutput"></textarea>-->
+    <!--</div>-->
+
+  </div>
+</div>
+
